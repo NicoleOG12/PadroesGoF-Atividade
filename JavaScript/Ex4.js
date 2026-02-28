@@ -3,7 +3,6 @@ const ui = {
     reset: "\x1b[0m",
     bold: "\x1b[1m",
     darkBlue: "\x1b[34m",
-    gray: "\x1b[37m",
     white: "\x1b[97m"
 };
 
@@ -14,7 +13,7 @@ function header(titulo) {
 }
 
 function divider() {
-    console.log(ui.gray + "   ────────────────────────────────" + ui.reset);
+    console.log(ui.darkBlue + " ────────────────────────────────" + ui.reset);
 }
 
 // PRODUTOS ABSTRATOS
