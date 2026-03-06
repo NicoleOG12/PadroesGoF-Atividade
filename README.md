@@ -1,8 +1,8 @@
-<h1>🏭 <strong>Abstract Method – Catálogo GoF</strong></h1>
+<h1>🏭 <strong>Padrões Criacionais – Catálogo GoF</strong></h1>
 
 <blockquote>
 Atividade prática da disciplina <strong>Técnicas de Programação II</strong> – FATEC.<br>
-Aplicação do padrão criacional <strong>Abstract Method</strong> em diferentes cenários, garantindo baixo acoplamento e uso de abstrações.
+Aplicação dos padrões criacionais <strong>Abstract Factory</strong>, <strong>Factory Method</strong> e <strong>Builder</strong> em diferentes cenários, garantindo baixo acoplamento e uso de abstrações.
 </blockquote>
 
 <hr>
@@ -10,8 +10,13 @@ Aplicação do padrão criacional <strong>Abstract Method</strong> em diferentes
 <h2>🚀 <strong>Visão Geral</strong></h2>
 
 <p>
-O projeto implementa o padrão <strong>Abstract Method (GoF)</strong> em quatro exercícios práticos,
-mantendo o cliente desacoplado das classes concretas e trabalhando apenas com interfaces.
+O projeto implementa os padrões criacionais <strong>Abstract Factory</strong>, <strong>Factory Method</strong> e <strong>Builder</strong> do catálogo GoF,
+demonstrando como aplicar boas práticas de criação de objetos em sistemas orientados a objetos.
+</p>
+
+<p>
+Esses padrões ajudam a reduzir o acoplamento entre classes, aumentar a flexibilidade do código
+e facilitar a manutenção e evolução do sistema.
 </p>
 
 <hr>
@@ -28,41 +33,29 @@ mantendo o cliente desacoplado das classes concretas e trabalhando apenas com in
 
 <hr>
 
-<h2>🧭 <strong>Exercícios Desenvolvidos</strong></h2>
+<h2>🧠 <strong>Padrões Implementados</strong></h2>
 
-<h3>1- Transporte Multimodal</h3>
-<ul>
-  <li><strong>Terrestre:</strong> Carro e Ônibus</li>
-  <li><strong>Aéreo:</strong> Helicóptero e Avião</li>
-</ul>
-<p>Cada modalidade possui sua própria fábrica concreta.</p>
-
-<hr>
-
-<h3>2- Loja Online</h3>
-<ul>
-  <li><strong>Bancos:</strong> Banco A e Banco B</li>
-  <li><strong>Produtos:</strong> Cartão de Crédito e Boleto</li>
-</ul>
-<p>A loja escolhe dinamicamente a fábrica sem conhecer as implementações concretas.</p>
+<h3>🏭 Abstract Factory</h3>
+<p>
+Permite criar famílias de objetos relacionados sem especificar suas classes concretas,
+garantindo que os objetos criados sejam compatíveis entre si.
+</p>
 
 <hr>
 
-<h3>3- Sistema Multiplataforma</h3>
-<ul>
-  <li><strong>Sistemas:</strong> Windows, Mac e Linux</li>
-  <li><strong>Elementos:</strong> Botão e Janela</li>
-</ul>
-<p>Cada sistema gera seus próprios componentes visuais.</p>
+<h3>⚙️ Factory Method</h3>
+<p>
+Define um método para criação de objetos, permitindo que subclasses decidam
+qual classe concreta será instanciada.
+</p>
 
 <hr>
 
-<h3>4- Fábrica de Robôs</h3>
-<ul>
-  <li><strong>Automotiva:</strong> Montador de carros e Inspetor de peças</li>
-  <li><strong>Eletrônicos:</strong> Montador de circuitos e Inspetor de chips</li>
-</ul>
-<p>Os robôs são sempre compatíveis com a linha escolhida.</p>
+<h3>🏗️ Builder</h3>
+<p>
+Separa a construção de um objeto complexo de sua representação,
+permitindo criar diferentes variações do mesmo objeto utilizando o mesmo processo de construção.
+</p>
 
 <hr>
 
