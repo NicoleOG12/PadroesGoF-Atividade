@@ -1,8 +1,8 @@
-<h1>🏭 <strong>Abstract Factory – Catálogo GoF</strong></h1>
+<h1>🏭 <strong>Abstract Method – Catálogo GoF</strong></h1>
 
 <blockquote>
 Atividade prática da disciplina <strong>Técnicas de Programação II</strong> – FATEC.<br>
-Aplicação do padrão criacional <strong>Abstract Factory</strong> em diferentes cenários, garantindo baixo acoplamento e uso de abstrações.
+Aplicação do padrão criacional <strong>Abstract Method</strong> em diferentes cenários, garantindo baixo acoplamento e uso de abstrações.
 </blockquote>
 
 <hr>
@@ -10,7 +10,7 @@ Aplicação do padrão criacional <strong>Abstract Factory</strong> em diferente
 <h2>🚀 <strong>Visão Geral</strong></h2>
 
 <p>
-O projeto implementa o padrão <strong>Abstract Factory (GoF)</strong> em quatro exercícios práticos,
+O projeto implementa o padrão <strong>Abstract Method (GoF)</strong> em quatro exercícios práticos,
 mantendo o cliente desacoplado das classes concretas e trabalhando apenas com interfaces.
 </p>
 
