@@ -1,4 +1,4 @@
-public class SistemaDePessoas {
+public class Ex1 {
 
     // PALETA DE CORES ANSI
     public static final String RESET = "\u001B[0m";
