@@ -1,6 +1,6 @@
 public class Ex1 {
 
-    // PALETA DE CORES ANSI
+    // PALETA DE CORES
     public static final String RESET = "\u001B[0m";
     public static final String BOLD = "\u001B[1m";
     public static final String PINK = "\u001B[35m";
@@ -31,19 +31,27 @@ public class Ex1 {
 
     // Subclasses de Pessoa
     static class Aluno extends Pessoa {
-        public Aluno(String nome) { super(nome, "Aluno", "Nivel 0"); }
+        public Aluno(String nome) { 
+            super(nome, "Aluno", "Nivel 0"); 
+        }
     }
 
     static class Administrador extends Pessoa {
-        public Administrador(String nome) { super(nome, "Administrador", "Nivel 1"); }
+        public Administrador(String nome) { 
+            super(nome, "Administrador", "Nivel 1"); 
+        }
     }
 
     static class Professor extends Pessoa {
-        public Professor(String nome) { super(nome, "Professor", "Nivel 2"); }
+        public Professor(String nome) { 
+            super(nome, "Professor", "Nivel 2"); 
+        }
     }
 
     static class Visitante extends Pessoa {
-        public Visitante(String nome) { super(nome, "Visitante", "Nivel 3"); }
+        public Visitante(String nome) { 
+            super(nome, "Visitante", "Nivel 3"); 
+        }
     }
 
     // Criação Abstrata de Pessoa
@@ -53,29 +61,33 @@ public class Ex1 {
 
     // Criações concretas
     static class CriacaoDeAlunos extends CriacaoDePessoas {
-        public Pessoa criarPessoa(String nome) { return new Aluno(nome); }
+        public Pessoa criarPessoa(String nome) { 
+            return new Aluno(nome); 
+        }
     }
 
     static class CriacaoDeAdministradores extends CriacaoDePessoas {
-        public Pessoa criarPessoa(String nome) { return new Administrador(nome); }
+        public Pessoa criarPessoa(String nome) { 
+            return new Administrador(nome); 
+        }
     }
 
     static class CriacaoDeProfessores extends CriacaoDePessoas {
-        public Pessoa criarPessoa(String nome) { return new Professor(nome); }
+        public Pessoa criarPessoa(String nome) { 
+            return new Professor(nome); 
+        }
     }
 
     static class CriacaoDeVisitantes extends CriacaoDePessoas {
-        public Pessoa criarPessoa(String nome) { return new Visitante(nome); }
+        public Pessoa criarPessoa(String nome) { 
+            return new Visitante(nome); 
+        }
     }
 
     // Uso
     public static void main(String[] args) {
 
-        String titulo = "SISTEMA DE PESSOAS";
-        int larguraTabela = 42;
-        int espacos = (larguraTabela - titulo.length()) / 2;
-        System.out.println("\n" + PINK + BOLD + " ".repeat(espacos) + titulo + RESET);
-
+        System.out.println(PINK + BOLD + "\n============ SISTEMA DE PESSOAS ============" + RESET);
         System.out.println(PINK + "+------------+----------------+------------+" + RESET);
         System.out.println(PINK + "| " + PURPLE + String.format("%-10s", "Nome") +
                            PINK + " | " + PURPLE + String.format("%-14s", "Cargo") +
