@@ -1,6 +1,5 @@
 import java.util.Scanner;
 
-// Classe Pizza
 class Pizza {
     String tamanho;
     String borda;
@@ -25,7 +24,6 @@ class Pizza {
     }
 }
 
-// Sistema legado
 class SistemaAntigoPizza {
 
     public void enviarPedido(String tamanho, String borda, String sabor) {
@@ -41,7 +39,6 @@ class SistemaAntigoPizza {
     }
 }
 
-// Adapter
 class PizzaAdapter {
     private SistemaAntigoPizza sistemaAntigo;
 
@@ -58,7 +55,6 @@ class PizzaAdapter {
     }
 }
 
-// Sistema principal
 public class Main {
 
     static Scanner sc = new Scanner(System.in);
