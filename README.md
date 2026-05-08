@@ -1,10 +1,10 @@
-<h1>🏭 <strong>Padrões Criacionais – Catálogo GoF</strong></h1>
+<h1>🏛️ <strong>Padrões de Projeto – Catálogo GoF</strong></h1>
 
 <blockquote>
   Atividade prática da disciplina <strong>Técnicas de Programação II</strong> – FATEC.<br>
-  Aplicação dos padrões criacionais <strong>Abstract Factory</strong>, <strong>Factory Method</strong>, 
-  <strong>Builder</strong>, <strong>Singleton</strong> e <strong>Prototype</strong> em diferentes cenários, 
-  garantindo baixo acoplamento e uso de abstrações.
+  Aplicação de padrões de projeto do catálogo GoF, incluindo padrões 
+  <strong>Criacionais</strong> e <strong>Estruturais</strong>, utilizando conceitos de 
+  orientação a objetos, abstração, reutilização de código e baixo acoplamento.
 </blockquote>
 
 <hr>
@@ -12,15 +12,15 @@
 <h2>🚀 <strong>Visão Geral</strong></h2>
 
 <p>
-  O projeto implementa os padrões criacionais <strong>Abstract Factory</strong>, 
-  <strong>Factory Method</strong>, <strong>Builder</strong>, <strong>Singleton</strong> e 
-  <strong>Prototype</strong> do catálogo GoF, demonstrando como aplicar boas práticas 
-  de criação de objetos em sistemas orientados a objetos.
+  O projeto implementa diferentes padrões de projeto do catálogo GoF 
+  (<em>Gang of Four</em>), abordando soluções reutilizáveis para problemas comuns 
+  no desenvolvimento de software orientado a objetos.
 </p>
 
 <p>
-  Esses padrões ajudam a reduzir o acoplamento entre classes, aumentar a flexibilidade 
-  do código e facilitar a manutenção e evolução do sistema.
+  Foram desenvolvidos exemplos utilizando padrões <strong>Criacionais</strong> e 
+  <strong>Estruturais</strong>, demonstrando como melhorar a organização do código, 
+  aumentar a flexibilidade do sistema e facilitar manutenção e escalabilidade.
 </p>
 
 <hr>
@@ -33,16 +33,21 @@
   <li>🐍 <strong>Python</strong></li>
 </ul>
 
-<p>Todos os exercícios foram desenvolvidos nas três linguagens.</p>
+<p>
+  Os exercícios foram desenvolvidos nas três linguagens para comparar 
+  implementações e explorar diferentes abordagens de programação orientada a objetos.
+</p>
 
 <hr>
 
 <h2>🧠 <strong>Padrões Implementados</strong></h2>
 
+<h2>🏗️ <strong>Padrões Criacionais</strong></h2>
+
 <h3>🏭 Abstract Factory</h3>
 <p>
   Permite criar famílias de objetos relacionados sem especificar suas classes concretas,
-  garantindo que os objetos criados sejam compatíveis entre si.
+  garantindo compatibilidade entre os objetos criados.
 </p>
 
 <hr>
@@ -65,16 +70,34 @@
 
 <h3>🔒 Singleton</h3>
 <p>
-  Garante que uma classe tenha apenas uma única instância durante toda a execução do sistema,
-  fornecendo um ponto global de acesso a essa instância.
+  Garante que uma classe possua apenas uma única instância durante toda a execução do sistema,
+  fornecendo um ponto global de acesso.
 </p>
 
 <hr>
 
 <h3>🧬 Prototype</h3>
 <p>
-  Permite criar novos objetos a partir da clonagem de instâncias existentes,
-  evitando a criação direta via construtor e melhorando a performance em cenários específicos.
+  Permite criar novos objetos através da clonagem de instâncias existentes,
+  reduzindo custos de criação e aumentando desempenho em cenários específicos.
+</p>
+
+<hr>
+
+<h2>🧱 <strong>Padrões Estruturais</strong></h2>
+
+<h3>🔌 Adapter</h3>
+<p>
+  Permite que classes com interfaces incompatíveis trabalhem juntas,
+  funcionando como um adaptador entre estruturas diferentes.
+</p>
+
+<hr>
+
+<h3>🌉 Bridge</h3>
+<p>
+  Separa uma abstração de sua implementação, permitindo que ambas possam variar
+  independentemente e reduzindo o acoplamento entre classes.
 </p>
 
 <hr>
